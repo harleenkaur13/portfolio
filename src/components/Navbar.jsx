@@ -71,7 +71,7 @@ const Navbar = () => {
         >
           {/* <span className="font-semibold">Harleen</span> */}
           <button
-            onClick={() => window.open('/web_resume.pdf', '_blank')}
+            onClick={() => window.open(`${import.meta.env.BASE_URL}harleenkaur_resume.pdf`, '_blank')}
             className="bg-zinc-800 px-3 py-1 rounded-sm hover:bg-transparent hover:border hover:border-zinc-500 transition-all duration-500">Resume</button>
         </motion.div>
 

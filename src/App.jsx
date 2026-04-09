@@ -12,7 +12,7 @@ const App = () => {
       className="relative bg-cover bg-center bg-fixed min-h-screen text-white"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
-      <Spotlight />
+      {/* <Spotlight /> */}
       <div className="absolute inset-0 bg-black/80 z-10" />
 
      <div id="mainContainer" className="h-screen relative z-30 flex flex-col items-center overflow-y-scroll snap-y snap-mandatory scroll-smooth no-scrollbar">
